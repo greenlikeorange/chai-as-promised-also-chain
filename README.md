@@ -32,6 +32,23 @@ you must call `.exec()` at the end of chain
 
 ## Usage
 
+### Init test case
+
+```javascript
+var chai = require('chai');
+var chaiAsPromised = require('chai-as-promised')
+var alsoChain = require('chai-as-promised-also-chain')
+
+chai.use(chaiAsPromised)
+chai.use(alsoChain)
+
+var expect = chai.expect;
+
+// OR
+
+var should = chai.should();
+```
+
 ### `should`/`expect` Interface
 
 ```javascript
