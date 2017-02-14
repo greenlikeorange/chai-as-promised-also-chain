@@ -3,7 +3,7 @@
          align="right" valign="top" alt="Promises/A+ logo" />
 </a>
 
-# Chai Assertions chainable property `.also`
+# Chain-able Chai promised test case method
 
 
 Instead of manually writing many test cases for a promise
