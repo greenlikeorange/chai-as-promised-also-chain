@@ -1,6 +1,6 @@
 {
   "name": "chai-as-promised-also-chain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adding .also chain in base library of chai-as-promised",
   "main": "index.js",
   "scripts": {
